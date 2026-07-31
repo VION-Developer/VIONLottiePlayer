@@ -1,0 +1,38 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00C8FF"/>
+      <stop offset="100%" stop-color="#00F5A0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Marco abierto -->
+  <path
+    d="M170 150
+       Q170 120 200 120
+       H330
+       M170 150
+       V362
+       Q170 392 200 392
+       H330"
+    fill="none"
+    stroke="url(#g)"
+    stroke-width="18"
+    stroke-linecap="round"
+    stroke-linejoin="round"/>
+
+  <!-- Play -->
+  <path
+    d="M225 188
+       L225 324
+       L332 256
+       Z"
+    fill="url(#g)"/>
+
+  <!-- Líneas de movimiento -->
+  <g stroke="url(#g)" stroke-width="16" stroke-linecap="round">
+    <line x1="375" y1="212" x2="405" y2="212"/>
+    <line x1="385" y1="256" x2="445" y2="256"/>
+    <line x1="375" y1="300" x2="405" y2="300"/>
+  </g>
+</svg>
